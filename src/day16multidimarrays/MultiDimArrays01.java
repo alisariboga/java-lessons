@@ -9,7 +9,7 @@ public class MultiDimArrays01 {
         //Arrays are objects, so we can put arrays in an array
 
         int arr[][] = new int[3][2];
-        //to print multi dimensional arrays:
+        //How to print multi dimensional arrays:
         System.out.println(Arrays.deepToString(arr));
         arr[0][0] = 1;
         System.out.println(Arrays.deepToString(arr));
@@ -20,7 +20,7 @@ public class MultiDimArrays01 {
 
         int brr[][] = {{2, 4, 1}, {7, 9}, {10, 11}};
         System.out.println(Arrays.deepToString(brr));
-        //How to update elemets in multi dimensional array?
+        //How to update elements in multi dimensional array?
         //Update 10 to 7
         brr[2][0] = 7;
         //Update 1 to 5

@@ -15,8 +15,8 @@ public class Encapsulation02 {
          setters are used to update the data
 
      4)The advantages of encapsulation:
-       a)It gives us flexibility, whenever we want we can just update the data with the help of setters
-       b)Reusability we create getters and setters just once and use them again and again
+       a) It gives us flexibility, whenever we want we can just update the data with the help of setters
+       b) Reusability we create getters and setters just once and use them again and again
 
      5)After creating private variables if you don't create any setter methods, it will be updated in the class.
      Because of that the class is called immutable class

@@ -42,11 +42,10 @@ public class Lists03 {
 
         if (list1.contains(str)) {
             list1.set(list1.indexOf(str), "Got it");
-            System.out.println(list1);
         } else {
             list1.add(str);
-            System.out.println(list1);
         }
+        System.out.println(list1);
 
         scan.close();
     }
